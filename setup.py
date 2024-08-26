@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='sampy',
+    name='sampy_cli',
     version='0.1',
     packages=find_packages(),
     install_requires=[
@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'sampy=src.cli:main',
+            'sampy_cli=src.cli:main',
         ],
     },
     author='Leo Hofer',
